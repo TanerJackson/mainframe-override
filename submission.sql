@@ -1,0 +1,43 @@
+--1. SELECT * FROM forum_posts WHERE date BETWEEN '2048-04-01' AND '2048-05-01' AND content ILIKE '%emptystack%' AND content ILIKE '%dad%';
+-- username smart-money-44
+--2.SELECT * FROM forum_accounts WHERE username = 'smart-money-44';
+-- getting all info about the account with tht username smart-money-44
+--last name  Steele
+--3. SELECT * FROM forum_accounts where last_name = 'Steele'; 
+-- finding all accounts that share the last name Steele.  I cannot exclaim how much more sense than react this makes to me.
+-- accounts... 
+--sharp-engine-57 | Andrew     | Steele
+--stinky-tofu-98  | Kevin      | Steele
+--smart-money-44  | Brad       | Steele 
+--4.SELECT * FROM emptystack_accounts where last_name = 'Steele'; 
+--same command different database  accounts below
+--triple-cart-38 | password456 | Andrew     | Steele
+--lance-main-11  | password789 | Lance      | Steele
+--Andrew Steele target acquired.
+--5. opened a bash terminal to run node mainframe.js
+--new sql emptystack.sql acquired
+--I would say its a bit unclear that running the new sql updates the previous mainframe override database.  Might be worth clarifying that.
+--6. SELECT * FROM emptystack_messages WHERE subject ILIKE '%taxi%'; 
+--filtering messages that mention a taxi inside the subject regardless of case and surroundings
+-- LidWj | your-boss-99 | triple-cart-38 | Project TAXI | Deploy Project TAXI by end of week. We need this out ASAP.
+--7.SELECT * FROM emptystack_accounts WHERE username = 'your-boss-99'; 
+--filtering by the above username
+--your-boss-99 | notagaincarter | Skylar     | Singer
+--unfortunate Mr.Singer
+--SELECT * FROM emptystack_projects WHERE code ='TAXI';
+--Almost missed finding the id of the project
+-- DczE0v2b | TAXI
+
+--WARNING: admin access required. Unauthorized access will be logged.
+--Username: your-boss-99
+--Password: notagaincarter
+--Welcome, your-boss-99.
+--Project ID: DczE0v2b
+--Initiating project shutdown sequence...
+--5...
+--4...
+--3...
+--2...
+--1...
+--Project shutdown complete.
+--accomplished
